@@ -1,0 +1,20 @@
+{
+  "src_vocab_size": 50260,
+  "tgt_vocab_size": 50260,
+  "src_seq_len": 256,
+  "tgt_seq_len": 127,
+  "d_model": 256,
+  "N": 3,
+  "h": 4,
+  "dropout": 0.01,
+  "d_ff": 1024,
+  "specials": {
+    "PAD": 0,
+    "BOS": 1,
+    "EOS": 2,
+    "SHIFT": 3
+  },
+  "tokenizer": {
+    "type": "tiktoken-gpt2"
+  }
+}

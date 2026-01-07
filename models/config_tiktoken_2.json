@@ -1,0 +1,24 @@
+{
+  "vocab_size": 50260,
+  "d_model": 512,
+  "n_layers": 6,
+  "n_heads": 8,
+  "d_ff": 2048,
+  "dropout": 0.1,
+  "max_src_len": 256,
+  "max_tgt_len": 128,
+  "src_seq_len": 256,
+  "tgt_seq_len": 127,
+  "specials": {
+    "PAD": 0,
+    "BOS": 1,
+    "EOS": 2,
+    "SHIFT": 3
+  },
+  "training": {
+    "epochs": 50,
+    "batch_size": 32,
+    "learning_rate": 0.0001,
+    "best_val_loss": 4.641644528933933
+  }
+}
